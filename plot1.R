@@ -11,6 +11,7 @@ png("plot1.png", width=480, height=480)
 #set margin line for axis labels
 par(mgp = c(2.5, 1, 0))
 
-plot(PMbyYears/1000, type="l", ylab = expression("Emissions (" ~ 10^{3} ~ "tons)"), main = "Total emissions in US, 1999-2008", col="red")
+plot(PMbyYears/1000, type="l", ylab = expression("Emissions of PM"[2.5]*" (" ~ 10^{3} ~ "tons)"), main = expression("Variation of PM"[2.5]*" in the US, 1999-2008"), col="red")
+
 
 dev.off()
